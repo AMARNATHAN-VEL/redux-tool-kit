@@ -1,7 +1,7 @@
 {
   "name": "redux-tool-kit",
   "private": true,
-  "homepage":"https://github.com/AMARNATHAN-VEL/redux-tool-kit/tree/main",
+  "homepage":"https://amarnathan-vel.github.io/redux-tool-kit",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",

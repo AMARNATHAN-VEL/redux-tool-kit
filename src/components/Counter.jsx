@@ -15,9 +15,11 @@ export function Counter() {
         >
           Increment
         </button>
-        <br /><br />
+        <br />
+        <br />
         <span>{count}</span>
-        <br /><br />
+        <br />
+        <br />
         <button
           aria-label="Decrement value"
           onClick={() => dispatch(decrement())}
