@@ -1,7 +1,7 @@
 {
   "name": "redux-tool-kit",
   "private": true,
-  "homepage":"https://amarnathan-vel.github.io/redux-tool-kit",
+  "homepage": "https://amarnathan-vel.github.io/redux-tool-kit",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
